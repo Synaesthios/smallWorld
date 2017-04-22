@@ -1,0 +1,30 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA TITAN X (Pascal) (ID=0x1b00)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   22.21.13.8165
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.083 seconds
+Platform assembly: C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Synaesthios\Desktop\Unity Drag and Drop Tutorial - Part 3\test_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 165Hz; virtual: 2560x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.778758 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 1568 -> priority: 1 
+  Thread -> id: 1664 -> priority: 1 
+  Thread -> id: 205c -> priority: 1 
+  Thread -> id: 324 -> priority: 1 

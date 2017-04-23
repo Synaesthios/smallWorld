@@ -27,12 +27,18 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
 	}
 	
 	public void OnDrop(PointerEventData eventData) {
-		Debug.Log (eventData.pointerDrag.name + " was dropped on " + gameObject.name);
+		Debug.Log ("Dropping " + eventData.pointerDrag.name);
 
-		Draggable d = eventData.pointerDrag.GetComponent<Draggable>();
-		if(d != null) {
-			d.parentToReturnTo = this.transform;
+		Draggable d = eventData.pointerDrag.GetComponent<Draggable> ();
+		if (d != null){
+			if (this.name == "Tabletop" && this.transform.childCount > 0) {
+				Debug.Log ("There is already a card on " + gameObject.name);
+				d.placeholderParent = d.parentToReturnTo;
+			}
+			else {
+				Debug.Log (eventData.pointerDrag.name + " was dropped on " + gameObject.name);
+				d.parentToReturnTo = this.transform;
+			}
 		}
-
 	}
 }
